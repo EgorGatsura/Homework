@@ -11,10 +11,7 @@
     <projectFile>Homework 8/Homework 8.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bba4db8-3095-46cd-8fe6-564e7c3115bc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Homework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 4/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 4/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="7bba4db8-3095-46cd-8fe6-564e7c3115bc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +37,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Homework 4">
+  <component name="RunManager" selected=".NET Project.Homework 3">
     <configuration name="Homework 1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -194,7 +191,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659880751300</updated>
-      <workItem from="1659880756177" duration="1344000" />
+      <workItem from="1659880756177" duration="1682000" />
     </task>
     <servers />
   </component>
