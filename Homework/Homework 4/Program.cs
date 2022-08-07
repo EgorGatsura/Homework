@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Enter a number from 0 to 100");
 ulong a = Convert.ToUInt64(Console.ReadLine());
-if (a >= 0 && a <= 100)
+if (a <= 100)
 {
     if (a == 0)
     {
@@ -74,45 +74,21 @@ if (a >= 0 && a <= 100)
             case 13:
                 Console.WriteLine("Thirteen");
                 break;
-        }
-
-        switch (a)
-        {
             case 14:
                 Console.WriteLine("Fourteen");
                 break;
-        }
-
-        switch (a)
-        {
             case 15:
                 Console.WriteLine("Fifteen");
                 break;
-        }
-
-        switch (a)
-        {
             case 16:
                 Console.WriteLine("Sixteen");
                 break;
-        }
-
-        switch (a)
-        {
             case 17:
                 Console.WriteLine("Seventeen");
                 break;
-        }
-
-        switch (a)
-        {
             case 18:
                 Console.WriteLine("Eighteen");
                 break;
-        }
-
-        switch (a)
-        {
             case 19:
                 Console.WriteLine("Nineteen");
                 break;
