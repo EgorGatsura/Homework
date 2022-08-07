@@ -1,8 +1,8 @@
 ﻿Console.WriteLine("What grade did you get?");
 ulong a = Convert.ToUInt64(Console.ReadLine());
-if (a >= 0 && a <= 10)
+if (a <= 10)
 {
-    if (a >= 0 && a <= 2)
+    if (a <= 2)
     {
         Console.WriteLine("was absent");
     }
