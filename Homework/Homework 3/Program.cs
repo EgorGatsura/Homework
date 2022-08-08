@@ -1,7 +1,7 @@
 ﻿Console.WriteLine("Choose the name of the month");
 Console.WriteLine(
     "1 [January] 2 [February] 3 [March] 4 [April] 5 [May] 6 [June] 7 [July] 8 [August] 9 [September] 10 [October] 11 [November] 12 [December]");
-ulong a = Convert.ToUInt64(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 if (a >= 1 && a <= 12)
 {
     switch (a)

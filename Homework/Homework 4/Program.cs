@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Enter a number from 0 to 100");
-ulong a = Convert.ToUInt64(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 if (a <= 100)
 {
     if (a == 0)

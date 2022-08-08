@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("What grade did you get?");
-ulong a = Convert.ToUInt64(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 if (a <= 10)
 {
     if (a <= 2)

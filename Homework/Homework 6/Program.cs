@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Welcome to the program that determines whether the entered number is prime or not");
 Console.WriteLine("Enter the number you want to check");
-ulong a = Convert.ToUInt64(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 if (a >= 2)
 {
     if (a == 2 || a == 3 || a == 5 || a == 7)
