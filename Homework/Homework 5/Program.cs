@@ -4,30 +4,22 @@ Console.WriteLine("Enter the second number");
 decimal b = Convert.ToDecimal(Console.ReadLine());
 Console.WriteLine("Choose what you want to do with them");
 Console.WriteLine("[+] addition, [-] subtraction, [*] multiplication, [/] division");
-string c = Console.ReadLine();
-if (c == "+" || c == "-" || c == "*" || c == "/")
+var c = Console.ReadLine();
+if (c is "+" or "-" or "*" or "/")
 {
     switch (c)
     {
         case "+":
-            Console.Write("Final result ");
-            Console.Write($"{a} + {b} = ");
-            Console.Write(a + b);
+            Console.Write($"{a} + {b} = " + (a + b));
             break;
         case "-":
-            Console.Write("Final result ");
-            Console.Write($"{a} - {b} = ");
-            Console.Write(a - b);
+            Console.Write($"{a} - {b} = " + (a - b));
             break;
         case "*":
-            Console.WriteLine("Final result ");
-            Console.Write($"{a} * {b} = ");
-            Console.Write(a * b);
+            Console.WriteLine($"{a} * {b} = " + (a * b));
             break;
         case "/":
-            Console.WriteLine("Final result ");
-            Console.Write($"{a} / {b} = ");
-            Console.Write(a / b);
+            Console.WriteLine($"{a} / {b} = " + (a / b));
             break;
     }
 }
