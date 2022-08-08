@@ -1,4 +1,6 @@
-﻿int[] array = new int[10];
+﻿Console.WriteLine("Enter the size of the array");
+int a = Convert.ToInt32(Console.ReadLine());
+int[] array = new int[a];
 Random rand = new Random();
 for (int i = 0; i < array.Length; i++)
 {
