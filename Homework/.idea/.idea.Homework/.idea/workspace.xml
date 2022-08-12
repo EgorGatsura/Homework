@@ -12,7 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bba4db8-3095-46cd-8fe6-564e7c3115bc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Homework1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework1/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Homework.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework7/Homework7.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Homework  7/Homework  7.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework7/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework  7/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7a1ad32abaee44480b66c2c1fcee9628cca92a4cd272eced5781564201180/Number.Parsing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bf408839e35535896e3625c8578c2bfb7bf56ef7ab2c4549ae59c3a19db9ae/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Homework  7/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Homework1/Homework.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Homework1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Homework2/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -29,7 +32,6 @@
     <setting file="file://$PROJECT_DIR$/Homework4/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Homework5/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Homework6/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Homework7/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Homework8/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -166,7 +168,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Homework7/Homework7.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Homework  7/Homework  7.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -207,7 +209,7 @@
       <workItem from="1659946617971" duration="4135000" />
       <workItem from="1660208310619" duration="5847000" />
       <workItem from="1660293677640" duration="860000" />
-      <workItem from="1660297981978" duration="928000" />
+      <workItem from="1660297981978" duration="1298000" />
     </task>
     <servers />
   </component>
