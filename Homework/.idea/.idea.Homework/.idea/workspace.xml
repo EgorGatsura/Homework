@@ -12,8 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bba4db8-3095-46cd-8fe6-564e7c3115bc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Homework1/Homework.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Homework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 8/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 8/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/Homework 1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Homework1/Homework1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Homework1/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Homework.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7a1ad32abaee44480b66c2c1fcee9628cca92a4cd272eced5781564201180/Number.Parsing.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bf408839e35535896e3625c8578c2bfb7bf56ef7ab2c4549ae59c3a19db9ae/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Homework1/Homework.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Homework1/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,7 +46,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.Homework 8">
+  <component name="RunManager" selected=".NET Project.Homework 1">
     <configuration name="Homework 1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -49,7 +55,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Homework 1/Homework 1.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Homework1/Homework1.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -196,6 +202,8 @@
       <updated>1659880751300</updated>
       <workItem from="1659880756177" duration="3632000" />
       <workItem from="1659946617971" duration="4135000" />
+      <workItem from="1660208310619" duration="5847000" />
+      <workItem from="1660293677640" duration="860000" />
     </task>
     <servers />
   </component>
@@ -204,6 +212,17 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
