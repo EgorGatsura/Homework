@@ -12,7 +12,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework5", "Homework5\Home
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework6", "Homework6\Homework6.csproj", "{CDF68D2D-6ED6-499D-90A8-05E9B2CD5D10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework7", "Homework7\Homework7.csproj", "{DD60A160-9222-44EB-A748-F4B08F2A73DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework  7", "Homework  7\Homework  7.csproj", "{DD60A160-9222-44EB-A748-F4B08F2A73DD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework8", "Homework8\Homework8.csproj", "{6A90505B-BF29-42D5-A48B-0D01798FD9CE}"
 EndProject
