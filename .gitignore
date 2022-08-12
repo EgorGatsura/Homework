@@ -349,7 +349,5 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
-# IntellijIdea files
-*.iml
-.idea
-out
+#idea folder
+.idea/
