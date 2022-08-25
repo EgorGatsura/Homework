@@ -1,7 +1,7 @@
 # Homework
 1. Implement a method that accepts 3 integer values a, b, c.The method should return true if a triangle can be built with the sides of given length and false in any other case. (In this case, all triangles must have surface greater than 0 to be accepted).
-2.Based on the score in a 10-point rating system, output the equivalent in a 5-point rating system - "was absent"; "not satisfactorily", "satisfactorily", "good", "excellent".
-3.Depending on the entered value (1..12) corresponding to the month of the year, output the corresponding season.
+2. Based on the score in a 10-point rating system, output the equivalent in a 5-point rating system - "was absent"; "not satisfactorily", "satisfactorily", "good", "excellent".
+3. Depending on the entered value (1..12) corresponding to the month of the year, output the corresponding season.
 4. For a given integer in the range from 0 to 100, print its spelling in words, for example: 99 - "ninety nine".
 5.Implement a console application "Calculator" that can perform basic arithmetic operations '+', '/', '-', '*'.
 6. Implement a method that accepts integer value and check whether it is prime or not
