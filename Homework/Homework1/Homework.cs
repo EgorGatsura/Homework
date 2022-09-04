@@ -1,6 +1,6 @@
 ﻿namespace Homework1;
 
-public class Homework
+public static class Homework
 {
     public static bool IsTriangle(int a, int b, int c)
     {

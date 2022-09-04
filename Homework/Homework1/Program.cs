@@ -21,5 +21,4 @@ while (!int.TryParse(Console.ReadLine(), out c))
 
 Console.WriteLine($"Length of the first side {a}  Length of the second side {b}  Length of the third side {c}");
 Homework.IsTriangle(a, b, c);
-// bool d = 
 Console.ReadLine();
