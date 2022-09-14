@@ -11,7 +11,7 @@ public enum Grade
     
 public class Methods
 {
-    public Grade Convert(int a)
+    public static Grade Convert(int a)
     {
         if (a < 0 || a > 10)
         {
