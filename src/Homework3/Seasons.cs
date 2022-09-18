@@ -1,31 +1,36 @@
 namespace Homework3;
 
-public class Seasons
+public enum EnumSeason
 {
-    static void SeasonMethod (int a)
+    Winter = 1,
+    Spring = 2,
+    Summer = 3,
+    Autumn = 4,
+}
+
+public static class Seasons
+{
+    public static EnumSeason MethodSeason(int a)
     {
-        switch (a)
+        if (a < 0 || a > 12)
         {
-            case 1:
-            case 2:
-            case 12:
-                Console.WriteLine("Winter");
-                break;
-            case 3:
-            case 4:
-            case 5:
-                Console.WriteLine("Spring");
-                break;
-            case 6:
-            case 7:
-            case 8:
-                Console.WriteLine("Summer");
-                break;
-            case 9:
-            case 10:
-            case 11:
-                Console.WriteLine("Autumn");
-                break;
+            throw new ArgumentOutOfRangeException(nameof(a));
         }
+
+        if (a == 1 || a == 2 || a == 12)
+        {
+            return EnumSeason.Winter;
+        }
+
+        if (a == 3 || a == 4 || a == 5)
+        {
+            return EnumSeason.Spring;
+        }
+
+        if (a == 6 || a == 7 || a == 8)
+        {
+            return EnumSeason.Summer;
+        }
+        return EnumSeason.Autumn;
     }
 }

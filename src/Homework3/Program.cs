@@ -6,7 +6,8 @@ Console.WriteLine(
 int a = Convert.ToInt32(Console.ReadLine());
 if (a >= 1 && a <= 12)
 {
-    //Seasons.SeasonMethod(a);
+    EnumSeason result = Seasons.MethodSeason(a);
+    Console.WriteLine(result.ToString());
 }
 else
 {
