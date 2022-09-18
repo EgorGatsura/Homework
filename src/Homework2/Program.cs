@@ -7,6 +7,14 @@ while (!int.TryParse(Console.ReadLine(), out a))
     Console.WriteLine("Enter the grade you received");
 }
 
-Grade result = Methods.Convert(a);
-Console.WriteLine(result.ToString());
+if (a >= 0 && a <= 10)
+{
+    Grade result = Methods.Convert(a);
+    Console.WriteLine(result.ToString());
+}
+else
+{
+    Console.WriteLine("There is no such assessment");
+}
+
 Console.ReadLine();

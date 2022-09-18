@@ -6,9 +6,9 @@ public enum Grade
     NotSatisfactorily = 2,
     Satisfactorily = 3,
     Good = 4,
-    Excellent = 5
+    Excellent = 5,
 }
-    
+
 public class Methods
 {
     public static Grade Convert(int a)
