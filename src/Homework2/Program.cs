@@ -1,7 +1,7 @@
 ﻿using Homework2;
 
 Console.WriteLine("What grade did you get?");
-int a = Convert.ToInt32(Console.ReadLine());
+int a;
 while (!int.TryParse(Console.ReadLine(), out a))
 {
     Console.WriteLine("Enter the grade you received");

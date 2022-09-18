@@ -13,31 +13,21 @@ public class Methods
 {
     public static Grade Convert(int a)
     {
-        if (a < 0 || a > 10)
+        switch (a)
         {
-            throw new ArgumentOutOfRangeException(nameof(a));
+            case < 0:
+            case > 10:
+                throw new ArgumentOutOfRangeException(nameof(a));
+            case <= 2:
+                return Grade.WasAbsent;
+            case <= 4:
+                return Grade.NotSatisfactorily;
+            case <= 6:
+                return Grade.Satisfactorily;
+            case <= 8:
+                return Grade.Good;
+            default:
+                return Grade.Excellent;
         }
-
-        if (a <= 2)
-        {
-            return Grade.WasAbsent;
-        }
-
-        if (a <= 4)
-        {
-            return Grade.NotSatisfactorily;
-        }
-
-        if (a <= 6)
-        {
-            return Grade.Satisfactorily;
-        }
-
-        if (a <= 8)
-        {
-            return Grade.Good;
-        }
-
-        return Grade.Excellent;
     }
 }
