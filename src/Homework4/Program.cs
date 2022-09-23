@@ -6,6 +6,7 @@ while (!int.TryParse(Console.ReadLine(), out a))
 {
     Console.WriteLine("You need to enter a number from 0 to 100");
 }
+
 if (a <= 100)
 {
     string result = Numbers.Numbersinwords(a);
@@ -17,4 +18,4 @@ else
 }
 
 Console.ReadLine();
-System.Diagnostics.Process.GetCurrentProcess().Kill(); 
+System.Diagnostics.Process.GetCurrentProcess().Kill();
