@@ -17,3 +17,4 @@ else
 }
 
 Console.ReadLine();
+System.Diagnostics.Process.GetCurrentProcess().Kill(); 
