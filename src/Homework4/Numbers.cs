@@ -4,139 +4,210 @@ public static class Numbers
 {
     public static string Numbersinwords(int a)
     {
-        if (a == 0)
-        {
-            return "Zero";
-        }
-
-        if (a == 1)
-        {
-            return "One";
-        }
-
-        if (a == 2)
-        {
-            return "Two";
-        }
-
-        if (a == 3)
-        {
-            return "Three";
-        }
-
-        if (a == 4)
-        {
-            return "Four";
-        }
-
-        if (a == 5)
-        {
-            return "Five";
-        }
-
-        if (a == 6)
-        {
-            return "Six";
-        }
-
-        if (a == 7)
-        {
-            return "Seven";
-        }
-
-        if (a == 8)
-        {
-            return "Eight";
-        }
-
-        if (a == 9)
-        {
-            return "Nine";
-        }
-
-        if (a == 10)
-        {
-            return "Ten";
-        }
-
-        if (a == 11)
-        {
-            return "Eleven";
-        }
-
-        if (a == 12)
-        {
-            return "Twelve";
-        }
-
-        if (a is >= 13 and <= 19)
-        {
-            switch (a)
-            {
-                case 13:
-                    return "Thirteen";
-                case 14:
-                    return "Fourteen";
-                case 15:
-                    return "Fifteen";
-                case 16:
-                    return "Sixteen";
-                case 17:
-                    return "Seventeen";
-                case 18:
-                    return "Eighteen";
-                case 19:
-                    return "Nineteen";
-            }
-        }
-
-        switch (a / 10)
-        {
-            case 20:
-                return"Twenty";
-            case 30:
-                return "Thirty";
-            case 40:
-                return "Forty";
-            case 50:
-                return "Fifty";
-            case 60:
-                return "Sixty";
-            case 70:
-                return "Seventy";
-            case 80:
-                return "Eighty";
-            case 90:
-                return "Ninety";
-        }
-
-        switch (a % 10)
+        switch (a)
         {
             case 1:
-                return " One";
+                return "One";
             case 2:
-                return " Two";
+                return "Two";
             case 3:
-                return " Three";
+                return "Three";
             case 4:
-                return " Four";
+                return "Four";
             case 5:
-                return " Five";
+                return "Five";
             case 6:
-                return " Six";
+                return "Six";
             case 7:
-                return " Seven";
+                return "Seven";
             case 8:
-                return " Eight";
+                return "Eight";
             case 9:
-                return " Nine";
+                return "Nine";
+            case 10:
+                return "Ten";
+            case 11:
+                return "Eleven";
+            case 12:
+                return "Twelve";
+            case 13:
+                return "Thirteen";
+            case 14:
+                return "Fourteen";
+            case 15:
+                return "Fifteen";
+            case 16:
+                return "Sixteen";
+            case 17:
+                return "Seventeen";
+            case 18:
+                return "Eighteen";
+            case 19:
+                return "Nineteen";
+            case 20:
+                return "Twenty";
+            case 21:
+                return "Twenty one";
+            case 22:
+                return "Twenty two";
+            case 23:
+                return "Twenty three";
+            case 24:
+                return "Twenty four";
+            case 25:
+                return "Twenty five";
+            case 26:
+                return "Twenty six";
+            case 27:
+                return "Twenty seven";
+            case 28:
+                return "Twenty eight";
+            case 29:
+                return "Twenty nine";
+            case 30:
+                return "Thirty";
+            case 31:
+                return "Thirty one";
+            case 32:
+                return "Thirty two";
+            case 33:
+                return "Thirty three";
+            case 34:
+                return "Thirty four";
+            case 35:
+                return "Thirty five";
+            case 36:
+                return "Thirty six";
+            case 37:
+                return "Thirty seven";
+            case 38:
+                return "Thirty eight";
+            case 39:
+                return "Thirty nine";
+            case 40:
+                return "Forty";
+            case 41:
+                return "Forty one";
+            case 42:
+                return "Forty two";
+            case 43:
+                return "Forty three";
+            case 44:
+                return "Forty four";
+            case 45:
+                return "Forty five";
+            case 46:
+                return "Forty six";
+            case 47:
+                return "Forty seven";
+            case 48:
+                return "Forty eight";
+            case 49:
+                return "Forty nine";
+            case 50:
+                return "Fifty";
+            case 51:
+                return "Fifty one";
+            case 52:
+                return "Fifty two";
+            case 53:
+                return "Fifty three";
+            case 54:
+                return "Fifty four";
+            case 55:
+                return "Fifty five";
+            case 56:
+                return "Fifty six";
+            case 57:
+                return "Fifty seven";
+            case 58:
+                return "Fifty eight";
+            case 59:
+                return "Fifty nine";
+            case 60:
+                return "Sixty";
+            case 61:
+                return "Sixty one";
+            case 62:
+                return "Sixty two";
+            case 63:
+                return "Sixty three";
+            case 64:
+                return "Sixty four";
+            case 65:
+                return "Sixty five";
+            case 66:
+                return "Sixty six";
+            case 67:
+                return "Sixty seven";
+            case 68:
+                return "Sixty eight";
+            case 69:
+                return "Sixty nine";
+            case 70:
+                return "Seventy";
+            case 71:
+                return "Seventy one";
+            case 72:
+                return "Seventy two";
+            case 73:
+                return "Seventy three";
+            case 74:
+                return "Seventy four";
+            case 75:
+                return "Seventy five";
+            case 76:
+                return "Seventy six";
+            case 77:
+                return "Seventy seven";
+            case 78:
+                return "Seventy eight";
+            case 79:
+                return "Seventy nine";
+            case 80:
+                return "Eighty";
+            case 81:
+                return "Eighty one";
+            case 82:
+                return "Eighty two";
+            case 83:
+                return "Eighty three";
+            case 84:
+                return "Eighty four";
+            case 85:
+                return "Eighty five";
+            case 86:
+                return "Eighty six";
+            case 87:
+                return "Eighty seven";
+            case 88:
+                return "Eighty eight";
+            case 89:
+                return "Eighty nine";
+            case 90:
+                return "Ninety";
+            case 91:
+                return "Ninety one";
+            case 92:
+                return "Ninety two";
+            case 93:
+                return "Ninety three";
+            case 94:
+                return "Ninety four";
+            case 95:
+                return "Ninety five";
+            case 96:
+                return "Ninety six";
+            case 97:
+                return "Ninety seven";
+            case 98:
+                return "Ninety eight";
+            case 99:
+                return "Ninety nine";
+            case 100:
+                return "One hundred";
         }
 
-        if (a == 100)
-        {
-            return "One Hundred";
-        }
         return "";
     }
-    
 }
