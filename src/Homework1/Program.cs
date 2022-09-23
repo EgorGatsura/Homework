@@ -23,3 +23,4 @@ Console.WriteLine($"Length of the first side {a}  Length of the second side {b} 
 bool result = Homework.IsTriangle(a, b, c);
 Console.WriteLine(result);
 Console.ReadLine();
+///////////////////////////
